@@ -1,6 +1,7 @@
 import { Provider } from "react-redux";
 import store from "../store/store";
 import '../styles/globals.css'
+import '../styles/reset.css'
 import type { AppProps } from 'next/app'
 import DefaultLayout from "../features/layout";
 
