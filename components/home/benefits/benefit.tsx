@@ -1,16 +1,16 @@
 import React from "react"
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import customStyles from "../../styles/Style.module.css"
+import customStyles from "../../../styles/Style.module.css"
 import Image from 'next/image'
 
 interface Props { 
 
-    src:string,title:string,body:string
+    src:string,title1:string,title2:string,body:string
 }
 const Benefit = (props:Props)=>{
 
-    const {src,title,body}  = props ;
+    const {src,title1,title2,body}  = props ;
     
     return (
     
@@ -23,8 +23,12 @@ const Benefit = (props:Props)=>{
       height={50}
     />: <></>}
  
-    <Typography className="text-xl mt-2 text-center" variant="h2" component="h2" paragraph={true}>
-    {title}
+    <Typography className="text-xl mt-2 mb-0 text-center" variant="h2" component="h2" paragraph={true}>
+    {title1}
+
+    </Typography>
+    <Typography className="text-xl  text-center" variant="h2" component="h2" paragraph={true}>
+    {title2}
 
     </Typography>
 

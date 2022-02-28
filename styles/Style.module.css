@@ -51,3 +51,42 @@
  padding: 10px;
 }
 .box-benefit p, .box-benefit h2{  font-family: vazir FaNum;}
+.home-cat-box{ border: 1px solid #e0e0e0;border-radius: 4px; height:100px;
+  display:flex;align-items:center;
+  margin-top: 25px;
+  flex: 1 1 0px;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-bottom: 25px;}
+  .view-cat-link{border-radius: 20px;border:1px solid #31f40b;width:100px;height:35px;}
+  .home-cat-box img{border-radius: 50%;;}
+  .home-city-show{
+
+    position: relative;
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 10px 22px 0 rgb(0 0 0 / 19%);
+    border: 1px solid rgba(0,0,0,.14);
+    margin-right: 50px;
+    cursor: pointer;
+    background:transparent;
+    
+    
+  }
+  .home-city-show img{
+    border-radius: 10px;
+
+  }
+  .home-city-show h2{
+    position: relative;
+    margin-top:-40px;
+  }
+  .carousel-arrow{
+    background:#ed1459;
+    height:35px;
+    width:35px;
+    border-radius: 50%;
+
+  }
+  

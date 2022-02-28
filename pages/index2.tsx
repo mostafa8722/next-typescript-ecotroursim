@@ -6,7 +6,9 @@ import React from 'react'
 import Header from '../components/header'
 import {connect} from "react-redux";
 import Banner from '../components/home/banner'
-import Benefits from '../components/home/benefits'
+import Benefits from '../components/home/benefits/benefits'
+import Cats from '../components/home/cats/cats'
+import Cities from '../components/home/cities/cities'
 const index : NextPage =()=>{
 
 
@@ -18,7 +20,9 @@ const index : NextPage =()=>{
      
        <Banner />
        <Benefits />
-  
+       <Cats />
+       <Cities />
+   
       
       </div>
     </>
