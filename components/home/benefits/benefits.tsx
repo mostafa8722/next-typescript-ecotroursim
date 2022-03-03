@@ -23,7 +23,7 @@ const Benefits = ()=>{
            <Box className={`p-3 ${customStyles["bg-benefits"]}`}>
           
                 <Box>
-                    <Typography className="text-2xl mt-3 text-white text-center" variant="h2" component="h2" gutterBottom>
+                    <Typography className="text-2xl mt-3 text-center" variant="h2" component="h2" gutterBottom>
                         چرا باید از کومه گردی استفاده کنیم ؟!
 
                     </Typography>

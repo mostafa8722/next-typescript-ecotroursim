@@ -70,5 +70,7 @@ body{
 .main-category img{height: 50px;}
 .main-description{display: flex;flex-direction: column;justify-content: center;flex:1 }
 .main-description img{height: 80px}
-.title-cards{}
+.css-8dsgnq{
+    height: 400px!important;
+}
 

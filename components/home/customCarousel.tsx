@@ -72,13 +72,14 @@ const CustomCarousel = (props: Props) => {
         setIsEnded(false);
         setIsStarted(false);
     };
+    
     return (
         <Main>
             <ArrowRight opacity={isStarted ? 0 : 1}>
               
                   <Box
                     className={`flex justify-center items-center ${customStyles["carousel-arrow"]}`}
-                    onClick={() => {
+                 onClick={() => {
                     swiperRef.current ? swiperRef.current.slidePrev() : "";
                     setIsEnded(false);
                 }}
@@ -104,7 +105,9 @@ const CustomCarousel = (props: Props) => {
             >
                 <Child>
                     {props.items.map((x: any, i: any) => {
-                        return <SwiperSlide key={i}>{x}</SwiperSlide>;
+                        return <SwiperSlide height={400} virtualIndex={i} key={i}>
+                            <div className="swiper-slide">{x}</div>
+                        </SwiperSlide>;
                     })}
                 </Child>
             </Swiper>

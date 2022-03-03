@@ -23,16 +23,16 @@ const Benefit = (props:Props)=>{
       height={50}
     />: <></>}
  
-    <Typography className="text-xl mt-2 mb-0 text-center" variant="h2" component="h2" paragraph={true}>
+    <Typography className="text-base mt-2 mb-0 text-center" variant="h2" component="h2" paragraph={true}>
     {title1}
 
     </Typography>
-    <Typography className="text-xl  text-center" variant="h2" component="h2" paragraph={true}>
+    <Typography className="text-base  text-center" variant="h2" component="h2" paragraph={true}>
     {title2}
 
     </Typography>
 
-    <Typography className="text-base mt-3 text-center" variant="h2" component="p" paragraph={true}>
+    <Typography className="text-xs leading-6 text-center" variant="h2" component="p" paragraph={true}>
    {body}
 
     </Typography>

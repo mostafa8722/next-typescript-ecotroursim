@@ -6,7 +6,7 @@
   background:#aaaaaa;
 }
 .bg-benefits{
-  background:#c3e921;
+  background:#eeeeee;
 }
 .btn-host{
   border-radius: 10px;
@@ -63,8 +63,8 @@
   .home-city-show{
 
     position: relative;
-    width: 180px;
-    height: 200px;
+    width:500px;
+    height: 400px;
     border-radius: 10px;
     box-shadow: 0 10px 22px 0 rgb(0 0 0 / 19%);
     border: 1px solid rgba(0,0,0,.14);
@@ -89,4 +89,14 @@
     border-radius: 50%;
 
   }
+  .box-comment{
+        border-radius: 10px;
+    background-color: #fff;
+    padding: 16px 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 16%);
+    border: 1px solid #e0e0e0;
+}
+
   

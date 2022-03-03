@@ -9,6 +9,13 @@ import Banner from '../components/home/banner'
 import Benefits from '../components/home/benefits/benefits'
 import Cats from '../components/home/cats/cats'
 import Cities from '../components/home/cities/cities'
+import Comments from '../components/home/comments/comments'
+import Banners from '../components/home/banners/banners'
+import Sliders from '../components/home/owlCarousel/sliders'
+import Descriptions from '../components/home/descriptions/descriptions'
+import Sliders2 from '../components/home/sliders/sliders'
+
+
 const index : NextPage =()=>{
 
 
@@ -22,6 +29,12 @@ const index : NextPage =()=>{
        <Benefits />
        <Cats />
        <Cities />
+       <Comments />
+       <Sliders />
+       <Sliders2 />
+       <Banners />
+       <Descriptions />
+  
    
       
       </div>

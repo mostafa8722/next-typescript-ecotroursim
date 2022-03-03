@@ -9,7 +9,8 @@ interface Props {
     objectFit ?:any, 
     disabled ?:any, 
     layout ?: any,
-    onClick ?:any
+    onClick ?:any, 
+    className?:any
 
 
 }
@@ -18,6 +19,7 @@ const CustomImageViewer = (props:Props)=>{
 
     return (
      <Image
+     className={props.className}
      aria-disabled={props.disabled}
       onClick={props.onClick}
       src={props.src}

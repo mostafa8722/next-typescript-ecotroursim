@@ -78,7 +78,7 @@ const Cities =  ()=>{
           </Typography>
           <Box >
           
-        <Scroll/>
+    
         <CustomCarousel   count={5} arrowSize={60} items={items} />
    
           </Box>
