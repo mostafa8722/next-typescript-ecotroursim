@@ -22,7 +22,14 @@ const Sliders =  ()=>{
   const useStyles = makeStyles({
     sliderSize:{
       width:"700px",
-      height:"400px"
+      height:"400px",
+      borderRadius: "10px",
+      boxShadow: "0 10px 22px 0 rgb(0 0 0 / 19%)",
+      border:" 1px solid rgba(0,0,0,.14)",
+  
+   
+      cursor: "pointer",
+    
     }
   })
   const classes = useStyles();

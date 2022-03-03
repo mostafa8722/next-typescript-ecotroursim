@@ -19,17 +19,24 @@ const City = (props:Props)=>{
       const useStyles = makeStyles({
           boxSlider:{
             position: "relative",
-            width: "500px",
+            width: "700px",
             height:"400px",
-            borderRadius: "10px",
-            boxShadow: "0 10px 22px 0 rgb(0 0 0 / 19%)",
-            border:" 1px solid rgba(0,0,0,.14)",
-            marginRight: "50px",
-            overflow: "hidden",
-            cursor: "pointer",
-            background:"transparent",
+           
           },
-          "&>img" :{}
+          
+          boxSliderTitle : {
+              position: "absolute!important",
+              bottom:"0px",
+              left:"50%",
+              width:"160px",
+              backgroundColor :"#31f40b",
+              borderRadius :"15px",
+              padding:"10px",
+              transform: "translate(-50%, -50%)"
+
+
+
+          },
       })
 
        const classes = useStyles();
@@ -52,7 +59,7 @@ const City = (props:Props)=>{
                               
                             }}
                         />: <></>}    
-          <Typography className="text-xl mt-2 mb-0 text-center text-white" variant="h2" component="h2" >
+          <Typography className={`text-xl mt-2 mb-0 text-center text-white ${classes.boxSliderTitle}`} variant="h2" component="h2" >
              {title}
 
           </Typography>
