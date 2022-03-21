@@ -8,10 +8,18 @@ import {icon} from '../utils/icons'
 import Typography from "@mui/material/Typography";
 import customStyles from '../styles/Style.module.css'
 import Box from "@mui/material/Box";
+import {useState} from "react"
+import CustomMobileModal from "../app/login/customMobileModal"
+import CustomCodeModal from "../app/login/customCodeModal"
+import CustomInformationModal from "../app/login/customInformationModal"
+import Divider from '@mui/material/Divider';
 
 const Header : NextPage =()=>{
+  const [openLogin,setOpenLogin] = useState(false)
 
-  
+  const handleModal = ()=>{
+    setOpenLogin(!openLogin);
+  }
    
 
   return (
@@ -34,7 +42,7 @@ const Header : NextPage =()=>{
                                {icon('mobile')}
                                <span className="m-r-5">دانلود اپلیکیشن </span>
                            </span>
-                           <span className="m-2 cursor-pointer">
+                           <span onClick={handleModal} className="m-2 cursor-pointer">
                                {icon('Login')}
                                <span>ورود / ثبت نام</span>
                            </span>
@@ -43,7 +51,16 @@ const Header : NextPage =()=>{
 
                    </Box>
 
+
                 </Box>
+
+                <CustomInformationModal
+                
+                open={openLogin}
+                handleClose={handleModal}
+                />
+
+            <Divider />
 
             </Box>
     </>

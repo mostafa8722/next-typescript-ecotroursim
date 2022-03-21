@@ -19,7 +19,7 @@ const SliderFooter = (props:Props)=>{
              
               <Box className="flex justify-between">
                   <Box className="flex">
-                 
+                
                   </Box>
                   <Box className="flex">
                          <SellIcon style={{fontSize:16,color:"rgb(91, 242, 9)"}} />

@@ -1,6 +1,5 @@
 import Search from "./search"
 import Typography from "@mui/material/Typography";
-
 import Box from "@mui/material/Box";
 import customStyles from "../../styles/Style.module.css"
 const banner = ()=>{
