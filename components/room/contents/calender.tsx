@@ -1,11 +1,19 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import { DatePicker } from "jalali-react-datepicker";
-import { RangeDatePicker } from "jalali-react-datepicker";
+import CustomCalender from "../../../app/calender/customCalender"
 
 
 
 const Calender = ()=>{
+   
+   
+    
+
+    
+    
+
+   
+  
 
     return (
         <>
@@ -13,8 +21,12 @@ const Calender = ()=>{
                 <Typography className={`text-xl font-bold   mt-3 `} variant="h2" component="h2" >
                         تقویم
                     </Typography>
-                    <Box className="flex">
-                    <DatePicker />
+
+                    <Box >
+                 
+                     <CustomCalender />
+                         
+                    
                     
                     </Box>
             </Box>
